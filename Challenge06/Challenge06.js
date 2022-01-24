@@ -9,8 +9,8 @@
 //  
 // ------------------------
 let arr = [12, 32, 22, 45, 78, 12, 50];
-let size = arr.length;
 const findMax = (arr) => {
+    let size = arr.length;
     let max = arr[0];
     for (let i = 1; i < size; i++) {
         if (max < arr[i]) {
@@ -30,8 +30,8 @@ const findMax = (arr) => {
 //  
 // ------------------------
 let arr2 = [20, '234', 'car', 41, 20, 'chair']
-let sizeOfArr = arr2.length;
 const sumNums = (arr2) => {
+    let sizeOfArr = arr2.length;
     let sum = 0;
     for (let i = 0; i <= sizeOfArr; i++) {
 
@@ -55,7 +55,7 @@ const sumNums = (arr2) => {
 // 
 // ------------------------
 let arr1 = ['C#', 'JS', 'Ruby', 'Python']
-let arrSize = arr1.length;
+// let arrSize = arr1.length;
 
 // const reverseArray = (arr1) => {
 //     let arrReverse = [];
